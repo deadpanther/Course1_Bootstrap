@@ -43,9 +43,13 @@
                     
                 </div>
                 <div class="col-12 col-sm align-self-center">
-                    <button type="submit" class="btn btn-warning">
-                        <a class="text-decoration-none text-dark" href="#reserve_table">Reserve a Table</a>
-                    </button>               
+                    
+                        <a role="button" class="btn btn-block nav-link btn-warning"
+                        data-toggle="tooltip" data-html="true" 
+                        title="Or call us at <br><strong>+85454345434</strong>"
+                        data-placement="bottom"
+                        href="#reserve_table">Reserve a Table</a>
+                    
                 </div>
             </div>
         </div>
@@ -211,6 +215,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>
