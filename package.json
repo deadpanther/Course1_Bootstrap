@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "cssmin": "^0.4.3",
     "grunt": "^1.1.0",
     "grunt-browser-sync": "^2.2.0",
@@ -27,6 +28,8 @@
     "grunt-contrib-imagemin": "^4.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.1.0",
     "htmlmin": "0.0.7",
     "jit-grunt": "^0.10.0",
     "lite-server": "^2.3.0",
@@ -48,6 +51,7 @@
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-filerev": "^2.3.1",
     "grunt-usemin": "^3.1.1",
+    "gulp-cli": "^2.3.0",
     "jquery": "^3.5.0",
     "popper.js": "^1.16.1"
   }
